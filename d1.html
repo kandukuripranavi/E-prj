@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .back a{
+            padding: 5px 10px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            font-weight: bold;
+            border-radius: 5px;
+            /* transition: background-color 0.3s ease; */
+        }
+        .back :hover{
+            background-color: white;
+        }
+        /* image code */
+        .center-img{
+            display: block;
+            margin-left:auto;
+            margin-right: auto;
+            width: 200px;
+            padding-top: 10px;
+        }
+        /* theoty of img */
+        .amount{
+            text-align: center;
+            margin-top: 15px;
+        }
+        .amount h3, .amount h4 {
+            margin: 8px 0;
+        }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .buyn, .cart{
+        border: 1px solid black;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .buttons a{
+            padding: 5px 10px;
+            text-decoration: none;
+            color: black;
+            background-color: lightblue;
+            border: 1px solid black;
+            font-weight: bold;
+            border-radius: 5px;
+    }
+    .buttons a:hover {
+        background-color: white;
+    }
+    </style>
+</head>
+<body>
+<!-- back button -->
+    <div class="back">
+            <a href="main.html">BACK</a>
+    </div>
+
+<!-- img code -->
+        <img src="d1.jpeg" class="center-img">
+
+<!-- theoty about img -->
+    <div class="amount">
+        <h3> Summer Dress: &#8377; 999</h3>
+        <p>Available sizes: S, M, L, XL</p>
+        <h4>Size Theory:</h4>
+        <p>
+            M size is designed to fit individuals with chest size of 36-38 inches and waist size of 30-32 inches. 
+            It provides a comfortble and semi-fitted look, perfect for everyday wear. Ideal for women with a medium build.
+        </p>
+    </div>
+    <div class="buttons">
+        <a href="#" class="button" onclick="ordersuccessful()">BUY NOW</button>
+        <a href="#" class="button" onclick="favorates()">ADD TO CART</button>
+    </div>
+    <script>
+        function ordersuccessful(){
+            alert("Order placed successfully!");
+        }
+           function favorates(){
+           alert("Added to cart successfully!\u2764\uFE0F");
+           }
+ 
+    </script>
+</body>
+</html>
+
+
+
