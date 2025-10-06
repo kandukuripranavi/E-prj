@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clothing Store</title>
+  <style>
+    * {
+      margin: 2px;
+      padding: 2px;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: antiquewhite;
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      flex-wrap: nowrap; /* Prevent line break */
+    }
+
+    .title h2 {
+      font-size: 40px;
+      margin: 0;
+      color: black;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .search-bar input {
+      width: 200px;
+      padding: 7px;
+      margin-right: 10px;
+    }
+
+    .search-bar button {
+      padding: 6px 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .search-bar button:hover {
+      background-color: #555;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1px;
+    }
+
+    .buttons a {
+      padding: 6px 12px;
+      text-decoration: none;
+      color: black;
+      /* border: 1px solid black; */
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: white;
+      text-decoration:underline ;
+    }
+
+    .imgs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+
+    .imgs a img {
+      width: 200px;
+      height: 250px;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .imgs a img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .title {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .search-bar {
+        margin: 10px 0;
+      }
+
+      .imgs {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="title">
+    <h2 class="Logo">Clothing Store</h2>
+    <div class="search-bar">
+      <input type="text" placeholder="Search here..." />
+      <button>Search</button>
+    </div>
+    <div class="buttons">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="cart.html">CART</a>
+    </div>
+  </div>
+
+  <div class="imgs">
+    <a href="d1.html" target="_blank"><img src="d1.jpeg" alt="Dress 1" /></a>
+    <a href="d2.html" target="_blank"><img src="d2.jpeg" alt="Dress 2" /></a>
+    <a href="d3.html" target="_blank"><img src="d3.jpeg" alt="Dress 3" /></a>
+    <a href="d4.html" target="_blank"><img src="d4.jpeg" alt="Dress 4" /></a>
+    <a href="d5.html" target="_blank"><img src="d5.jpeg" alt="Dress 5" /></a>
+    <a href="d6.html" target="_blank"><img src="d6.jpeg" alt="Dress 6" /></a>
+
+    <a href="d7.html" target="_blank"><img src="d7.jpg" alt="Dress 1" /></a>
+    <a href="d8.html" target="_blank"><img src="d8.jpg" alt="Dress 2" /></a>
+    <a href="d9.html" target="_blank"><img src="d9.jpg" alt="Dress 3" /></a>
+    <a href="d10.html" target="_blank"><img src="d10.jpg" alt="Dress 4" /></a>
+    <a href="d11.html" target="_blank"><img src="d11.jpg" alt="Dress 5" /></a>
+    <a href="d12.html" target="_blank"><img src="d12.jpg" alt="Dress 6" /></a>
+
+  </div>
+</body>
+</html>
