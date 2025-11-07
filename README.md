@@ -21,9 +21,6 @@ Open [here](https://kandukuripranavi.github.io/E-prj) in your browser. Or downlo
 2. Open the folder in VS Code or browser.
 3. Double-click `index.html` to launch.
 
-## Screenshots
-<image-card alt="Homepage Screenshot" src="screenshot-home.png" ></image-card>  <!-- Optional: Image upload chesi link ivvu – Drag & drop in GitHub -->
-
 ## Challenges & Learnings
 - Implemented responsive CSS to handle different screen sizes.
 - Added JS for complex form validation to improve user experience.
